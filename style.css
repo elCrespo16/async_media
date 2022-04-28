@@ -1,0 +1,54 @@
+.hero-image {
+    position: relative;
+    background: rgb(48, 48, 54);
+    overflow: hidden;
+    height: 700px;
+}
+
+.hero-image:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    padding: none;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("/alfayomega/resources/businessman-reading-contract-closeup-scaled.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-35%, -35%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    z-index: 2;
+}
+
+@media screen and (max-width: 425px) {
+    .hero-image {
+        height: 250px;
+    }
+    .hero-text {
+        top: 30%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .hero-image {
+        height: 400px;
+    }
+    .hero-text {
+        top: 30%;
+        left: 30%;
+    }
+}
+
