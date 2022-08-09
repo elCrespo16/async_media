@@ -1,142 +1,148 @@
 .hero-image {
-    position: relative;
-    background: rgb(48, 48, 54);
-    overflow: hidden;
-    height: 500px;
+  position: relative;
+  background: rgb(48, 48, 54);
+  overflow: hidden;
+  height: 500px;
 }
 
 .arrow {
-    border: solid rgb(223, 71, 89);
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
+  border: solid rgb(223, 71, 89);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
 
 .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
 }
-
 
 .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
-.hero-image:before{
-    content: ' ';
-    display: block;
-    padding: none;
-    z-index: 1;
-    opacity: 0.6;
-    background-image: url("/alfayomega/resources/businessman-reading-contract-closeup-scaled.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    position: relative;
-    height: 100%;
-    width: 100%;
+.hero-image:before {
+  content: " ";
+  display: block;
+  padding: none;
+  z-index: 1;
+  opacity: 0.6;
+  background-image: url("/alfayomega/resources/businessman-reading-contract-closeup-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .hero-text {
-    text-align: left;
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    transform: translate(-35%, -35%);
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    z-index: 2;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  transform: translate(-35%, -35%);
+  color: white;
+  font-family: "Raleway", sans-serif;
+  z-index: 2;
 }
 
 .basic-circle {
-    width: 240px;
-    height: 240px;
+  width: 240px;
+  height: 240px;
 }
 
 .inside-circle {
-    left: -70px;
-    top: -150px;
-    position: relative;
-    z-index: -3;
-    width: 230px;
-    height: 230px;
-    overflow: hidden;
+  left: -70px;
+  top: -150px;
+  position: relative;
+  z-index: -3;
+  width: 230px;
+  height: 230px;
+  overflow: hidden;
 }
 
-.inside-circle::after{
-    content: "";
-    left: 2rem;
-    bottom: -4rem;
-    width: 13.75rem;
-    height: 13.75rem;
-    opacity: 0.15;
-    background-color: white;
-    transition: all 0.2s;
-    position: absolute;
-    border-radius: 50%;
+.inside-circle::after {
+  content: "";
+  left: 2rem;
+  bottom: -4rem;
+  width: 13.75rem;
+  height: 13.75rem;
+  opacity: 0.15;
+  background-color: white;
+  transition: all 0.2s;
+  position: absolute;
+  border-radius: 50%;
 }
 
-.inside-circle::before{
-    content: "";
-    left: -1.75rem;
-    bottom: -4rem;
-    width: 13.75rem;
-    height: 13.75rem;
-    opacity: 0.1;
-    background-color: white;
-    transition: all 0.2s;
-    z-index: 1;
-    position: absolute;
-    border-radius: 50%;
+.inside-circle::before {
+  content: "";
+  left: -1.75rem;
+  bottom: -4rem;
+  width: 13.75rem;
+  height: 13.75rem;
+  opacity: 0.1;
+  background-color: white;
+  transition: all 0.2s;
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
 }
 
-.inside-text{
-    top: 15%;
-    left: -5%;
-    position: relative;
+.inside-text {
+  top: 15%;
+  left: -5%;
+  position: relative;
 }
 
-.h1-huge{
-    font-size: 6.5rem;
-    line-height: 1;
+.h1-huge {
+  font-size: 6.5rem;
+  line-height: 1;
 }
 
 .accordion-button:not(.collapsed) {
-    color: white;
-    background-color: rgb(223, 71, 89);
+  color: white;
+  background-color: rgb(223, 71, 89);
 }
 
 .accordion-button:after {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FEB7EE'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FEB7EE'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 @media screen and (max-width: 425px) {
-    .hero-image {
-        height: 250px;
-    }
-    .hero-text {
-        top: 30%;
-        left: 40%;
-    }
+  .hero-image {
+    height: 250px;
+  }
+  .hero-text {
+    top: 30%;
+    left: 40%;
+  }
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
-    .hero-image {
-        height: 400px;
-    }
-    .hero-text {
-        top: 30%;
-        left: 30%;
-    }
+  .hero-image {
+    height: 400px;
+  }
+  .hero-text {
+    top: 30%;
+    left: 30%;
+  }
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.max_width {
+    max-width: 1080px !important; 
+}

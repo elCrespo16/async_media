@@ -35,8 +35,8 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-danger">
-      <div class="container-fluid">
-        <a class="navbar-brand col-md-5 text-light" href="#">
+      <div class="container-fluid max_width">
+        <a class="navbar-brand col-md-5 text-light" href="main.html">
           <h1>Alfa y Omega Asesores</h1>
         </a>
         <button
@@ -64,26 +64,29 @@
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item col">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+              <li class="nav-item w-auto">
                 <a
-                  class="nav-link active text-light h5"
+                  class="nav-link active text-light h5 mx-1"
                   aria-current="page"
-                  href="#"
+                  href="main.html"
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item col hide">
-                <a class="nav-link text-light h5" href="#">Servicios</a>
+              <li class="nav-item w-auto hide mx-1">
+                <a class="nav-link text-light h5" href="services.html"
+                  >Servicios</a
+                >
               </li>
-              <li class="nav-item col">
-                <a class="nav-link text-light h5" href="#">Quienes somos</a>
+              <li class="nav-item w-auto">
+                <a class="nav-link text-light h5 mx-1" href="about.html"
+                  >Quienes somos</a
+                >
               </li>
-              <li class="nav-item col">
-                <a class="nav-link text-light h5" href="#">Aviso legal</a>
-              </li>
-              <li class="nav-item col">
-                <a class="nav-link text-light h5" href="#">Contacto</a>
+              <li class="nav-item w-auto">
+                <a class="nav-link text-light h5 mx-1" href="contact.html"
+                  >Contacto</a
+                >
               </li>
             </ul>
           </div>
@@ -109,7 +112,9 @@
         </div>
       </div>
       <!-- End Banner -->
-      <!-- Cards -->
+      <!-- Padding side -->
+      <div class="max_width mx-auto">
+        <!-- Cards -->
       <div class="mb-5">
         <!-- Cards titles -->
         <div class="mb-5">
@@ -120,7 +125,7 @@
         <!-- First row -->
         <div class="row">
           <div class="col-md-6 col-sm-12 pb-3 pe-md-1">
-            <div class="card">
+            <div class="card border-danger">
               <div class="card-body">
                 <h5 class="card-title text-center">Derecho penal</h5>
                 <p class="card-text text-justify">
@@ -133,9 +138,9 @@
           <!-- End First row -->
           <!-- Second row -->
           <!-- End Second row -->
-          <div class="row m-3">
+          <div class="row mt-3">
             <div class="text-center">
-              <a href="#" class="btn btn-danger text-center">
+              <a href="services.html" class="btn btn-danger text-center">
                 Saber más de nuestros servicios →
               </a>
             </div>
@@ -303,57 +308,67 @@
         </div>
       </div>
       <!-- End FAQ -->
+      </div>
     </div>
     <!-- End Content -->
     <!-- Footer -->
     <div class="ps-3 bg-dark w-100 py-5">
-      <a class="navbar-brand text-center text-light" href="#">
-        <h1>Alfa y Omega Asesores</h1>
-      </a>
-      <p class="text-white mx-3 mb-4">Texto descriptivo de la empresa</p>
-      <div>
-        <h2 class="text-light text-center">Menú</h2>
-        <ul class="ms-0 ps-0 mb-2 mb-lg-0 row">
-          <li class="col-6">
-            <a class="nav-link text-light h6" href="#">Inicio</a>
-          </li>
-          <li class="col-6">
-            <a class="nav-link text-light h6" href="#">Servicios</a>
-          </li>
-          <li class="col-6">
-            <a class="nav-link text-light h6" href="#">Quienes somos</a>
-          </li>
-          <li class="nav-item col">
-            <a class="nav-link text-light h6" href="#">Aviso legal</a>
-          </li>
-          <li class="nav-item col">
-            <a class="nav-link text-light h6" href="#">Contacto</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="text-light text-center mb-3">Información de contacto</h2>
-        <ul class="ms-0 ps-0 mb-2 mb-lg-0 row">
-          <li class="col-12">
-            <p class="nav-link text-light h6" href="#">
-              <i class="fa-solid fa-location-dot me-2"></i>Calle Marques de
-              Sentmenan 41
-            </p>
-          </li>
-          <li class="col-12">
-            <p class="nav-link text-light h6" href="#">
-              <i class="fa-solid fa-mobile me-2"></i>+34 639602718
-            </p>
-          </li>
-          <li class="col-12">
-            <p class="nav-link text-light h6" href="#">
-              <i class="fa-solid fa-envelope me-2"></i>info@alfayomegasesores.es
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="border-top border-secondary text-light pt-3">
-        © 2021 ValkDesigns. All rights reserved.
+      <div class="max_width mx-auto">
+        <a class="navbar-brand text-center text-light" href="main.html">
+          <h1>Alfa y Omega Asesores</h1>
+        </a>
+        <p class="text-white mx-3 mb-4">Texto descriptivo de la empresa</p>
+        <div>
+          <h2 class="text-light text-center">Menú</h2>
+          <ul class="ms-0 ps-0 mb-2 mb-lg-0 row">
+            <li class="col-6">
+              <a class="nav-link text-light h6" href="main.html">Inicio</a>
+            </li>
+            <li class="col-6">
+              <a class="nav-link text-light h6" href="services.html"
+                >Servicios</a
+              >
+            </li>
+            <li class="col-6">
+              <a class="nav-link text-light h6" href="about.html"
+                >Quienes somos</a
+              >
+            </li>
+            <li class="nav-item col-6">
+              <a class="nav-link text-light h6" href="legal.html"
+                >Aviso legal</a
+              >
+            </li>
+            <li class="nav-item col-6">
+              <a class="nav-link text-light h6" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-light text-center mb-3">Información de contacto</h2>
+          <ul class="ms-0 ps-0 mb-2 mb-lg-0 row">
+            <li class="col-12">
+              <p class="nav-link text-light h6">
+                <i class="fa-solid fa-location-dot me-2"></i>Calle Marques de
+                Sentmenan 41
+              </p>
+            </li>
+            <li class="col-12">
+              <p class="nav-link text-light h6">
+                <i class="fa-solid fa-mobile me-2"></i>+34 639602718
+              </p>
+            </li>
+            <li class="col-12">
+              <p class="nav-link text-light h6">
+                <i class="fa-solid fa-envelope me-2"></i
+                >info@alfayomegasesores.es
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="border-top border-secondary text-light pt-3">
+          © 2021 ValkDesigns. All rights reserved.
+        </div>
       </div>
     </div>
     <!-- End Footer -->
